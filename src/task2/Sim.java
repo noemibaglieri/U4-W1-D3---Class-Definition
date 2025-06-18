@@ -16,7 +16,7 @@ public class Sim {
 
     public void printSim() {
         System.out.println("This Sim phone number is: " + phoneNumber);
-        System.out.println("It has: " + credit + "credit");
+        System.out.println("It has: " + credit + " credit");
         System.out.println("The last 5 calls made were: " + Arrays.toString(callList));
     }
 }
