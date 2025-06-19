@@ -5,13 +5,14 @@ public class Customer {
     private final String customerName;
     private final String customerLastName;
     private String customerEmail;
+    private final String dateOfRegistration;
 
     public Customer(String name, String lastName, String email) {
         this.customerId = (int)(Math.random() * 1000);
         this.customerName = name;
         this.customerLastName = lastName;
         this.customerEmail = email;
-        String dateOfRegistration = "18/06/2025";
+       this.dateOfRegistration = "18/06/2025";
     }
 
     public int getCustomerId() {
